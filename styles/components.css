@@ -33,9 +33,15 @@
   margin-bottom: 10px;
   border: 1px solid #ddd;
   border-radius: 5px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 #todo-list li:hover {
   background-color: #f1f1f1;
 }
 
+.delete-button {
+  background-color: #e74c3c;
+}
